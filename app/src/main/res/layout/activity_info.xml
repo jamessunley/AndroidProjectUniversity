@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/info">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/museum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/pricesDescriprionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_description"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceAdultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adult"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/priceStudentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/userPromptCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currency_prompt"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency_options" />
+
+    <TextView
+        android:id="@+id/userPromptPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_prompt"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/priceInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/price" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/discount1" />
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discount2"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radioButton40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discount3"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radioButton50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discount4"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPriceChange"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_button"
+        android:textAlignment="center" />
+</LinearLayout>

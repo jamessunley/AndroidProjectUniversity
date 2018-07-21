@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">bg69mm</string>
+
+    <string name="pink">Pink</string>
+    <string name="grey">Grey</string>
+    <string name="blue">Blue</string>
+
+    <string name="info">Info</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+
+    <string name="museum">The Lourve</string>
+    <string name="location">Rue de Rivoli, 75001 Paris, France</string>
+    <string name="descriprion">The Lourve is one of the most famous art museums in the world, situated in Paris, France.
+    The museum can easily be identified from the famous glass pyramid situated at the entrance.
+    There are many famous peices available to be seen here incliding the Mona Lisa by Leonardo DaVinci.
+    Construction started in 1202 and was established as an art gallery on 10th August 1793.</string>
+    <string name="app_info">This application will provide you with the information that you need for an informative and enjoyable visit
+    to the museum. </string>
+
+    <string name="price_description">The latest price for The Lourve is: </string>
+    <string name="price">10</string>
+    <string name="adult">Adult: €10</string>
+    <string name="student">Student: €7</string>
+    <string name="discount1">30% Student Discount</string>
+    <string name="discount2">20% Student Discount</string>
+    <string name="discount3">40% Student Discount</string>
+    <string name="discount4">50% Student Discount</string>
+
+    <string name="currency_prompt">Please select your preferred currency for an updated pricing.</string>
+    <string-array name="currency_options"><item>EUR</item><item>GBP</item><item>USD</item><item>AUD</item><item>BGN</item>
+    <item>BRL</item><item>CAD</item><item>CHF</item><item>CNY</item><item>DKK</item><item>HKD</item>
+    <item>HUF</item><item>IDR</item><item>ILS</item><item>INR</item><item>JPY</item><item>MXN</item><item>MYR</item>
+    <item>NOK</item><item>NZD</item><item>PHP</item><item>PLN</item><item>RON</item><item>RUB</item><item>SEK</item>
+    <item>SGD</item><item>THB</item><item>TRY</item><item>ZAR</item><item>CZK</item></string-array>
+
+    <string name="price_prompt">Please enter the new adult price in Euros.</string>
+    <string name="price_button">Confirm Price Change</string>
+
+    <string name="painting_not_found">Painting Not Found</string>
+
+    <string name="enterPainting">Enter New Painting</string>
+    <string name="enterTitle">Enter Painting Title</string>
+    <string name="enterArtist">Enter Painting Artist</string>
+    <string name="enterYear">Enter Painting Year</string>
+    <string name="enterRoom">Enter Painting Room</string>
+    <string name="enterDescription">Enter Paintig Description</string>
+
+    <string name="add">Update Painting</string>
+    <string name="delete">Delete Painting</string>
+    <string name="camera">Take photo</string>
+
+
+</resources>
